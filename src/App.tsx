@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Sparkles, Moon, Sun, Star } from 'lucide-react';
 import UserForm from './components/UserForm';
 import GuidanceDisplay from './components/GuidanceDisplay';
-import langflowClient from './services/langflowService';
+
 
 function App() {
   const [showGuidance, setShowGuidance] = useState(false);
@@ -15,16 +15,62 @@ function App() {
     setLoading(true);
     setError(null);
     try {
-      // Get birth chart data
-      const birthChartData = await langflowClient.getBirthChart(formData);
-      
-      // Get spiritual guidance data
-      const spiritualData = await langflowClient.getSpiritualGuidance(formData);
+      // Prepare the request payload
+      const payload = {
+      input_value: formData,
+      output_type: "chat",
+      input_type: "chat",
+      tweaks: {
+        "ChatInput-Rnj65": {},
+        "AstraDB-0DQaO": {},
+        "ParseData-UP2jw": {},
+        "Agent-SNXMR": {},
+        "GoogleGenerativeAIModel-piIoL": {},
+        "ChatOutput-IcE00": {},
+        "File-t1FY0": {},
+        "File-L6j4R": {},
+        "SplitText-yF4Jt": {},
+        "AstraDB-vqgc8": {},
+        "Google Generative AI Embeddings-Xd4fY": {},
+        "CalculatorTool-ITOMj": {},
+        "Google Generative AI Embeddings-cJa2F": {}
+      }
+      };
+
+      // First API call
+      const response1 = await fetch(
+      "https://api.langflow.astra.datastax.com/lf/adbd4c75-524d-49a8-ac25-d3348278d702/api/v1/run/55e5a266-e0d9-4647-8dd6-37cf8c221dff?stream=false",
+      {
+        method: "POST",
+        headers: {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer AstraCS:tbPTcPRKzeOcunHfgayOvdAv:7925b57a3061a5aef654c0345517a4f5bdffa78f8124b441c2a1b137af79509c"
+        },
+        body: JSON.stringify(payload)
+      }
+      );
+
+      const birthChartData = await response1.json();
+
+      // Second API call
+      const response2 = await fetch(
+      "https://api.langflow.astra.datastax.com/lf/adbd4c75-524d-49a8-ac25-d3348278d702/api/v1/run/17851a95-a01c-43fb-8935-ce836c47f99e?stream=false",
+      {
+        method: "POST",
+        headers: {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer AstraCS:ipMnUmFreKvYUOhUGzsBuszF:b55190e052e250600872a6881495e0b60e90888fc2a4f453e584c69cd8c085f2"
+        },
+        body: JSON.stringify(payload)
+      }
+      );
+
+      const spiritualData = await response2.json();
 
       // Combine both responses
       const combinedData = {
-        ...birthChartData,
-        spiritualContent: spiritualData
+      ...birthChartData,
+      spiritualContent: spiritualData
       };
 
       setUserInput(formData);
