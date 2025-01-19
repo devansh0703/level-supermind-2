@@ -1,0 +1,269 @@
+{
+  "birthChart": {
+    "houses": {
+      "house1": {
+        "name": "First House (Ascendant/Lagna)",
+        "sign": "Leo",
+        "significance": "Self, personality, appearance, beginnings",
+        "prediction": "Strong leadership qualities and creative expression",
+        "ruling_planet": "Sun",
+        "degree": "15°30'",
+        "aspects": ["Trine with Jupiter", "Square with Mars"],
+        "detailed_analysis": "The Leo ascendant grants you a natural charisma and leadership ability. The Sun's placement here strengthens your self-expression and creativity. You have a magnetic personality that draws others to you naturally.",
+        "strengths": [
+          "Natural leadership abilities",
+          "Strong creative expression",
+          "Magnetic personality",
+          "Self-confidence"
+        ],
+        "challenges": [
+          "May come across as too dominant",
+          "Need to balance ego with humility",
+          "Learning to delegate effectively"
+        ]
+      },
+      "house2": {
+        "name": "Second House",
+        "sign": "Virgo",
+        "significance": "Wealth, possessions, family, speech",
+        "prediction": "Methodical approach to finances brings stability",
+        "ruling_planet": "Mercury",
+        "degree": "20°15'",
+        "aspects": ["Sextile with Venus", "Trine with Saturn"],
+        "detailed_analysis": "Mercury's influence in your wealth house indicates success through intellectual pursuits and analytical abilities. Your methodical approach to finances will lead to steady growth and stability.",
+        "financial_outlook": {
+          "strong_periods": ["September 2024", "March 2025"],
+          "investment_advice": "Focus on technology and education sectors",
+          "wealth_building_strategies": [
+            "Regular systematic investments",
+            "Skills development for career growth",
+            "Conservative investment approach"
+          ]
+        }
+      }
+    },
+    "planetary_positions": {
+      "sun": {
+        "sign": "Aries",
+        "house": 9,
+        "degree": "15°20'",
+        "strength": "Exalted",
+        "significance": "Core personality, life purpose, vitality",
+        "impact": "Strong drive for spiritual growth and higher education"
+      },
+      "moon": {
+        "sign": "Cancer",
+        "house": 12,
+        "degree": "8°45'",
+        "strength": "Own sign",
+        "significance": "Mind, emotions, mother, public life",
+        "impact": "Deep emotional sensitivity and intuitive abilities"
+      }
+    },
+    "dailyHoroscope": {
+      "general": "Today brings opportunities for spiritual growth. Focus on meditation and inner reflection.",
+      "love": "Venus's aspect brings harmony in relationships. Express your feelings openly.",
+      "career": "Mercury's position supports intellectual work and communication.",
+      "health": "Pay attention to throat and neck area. Practice neck exercises.",
+      "lucky": {
+        "color": "Royal Blue",
+        "number": 5,
+        "direction": "North",
+        "time": "6:00 AM - 8:00 AM"
+      }
+    },
+    "monthlyHoroscope": {
+      "overview": "This month emphasizes personal development and career advancement. Watch for opportunities around the 15th.",
+      "major_transits": [
+        {
+          "planet": "Jupiter",
+          "effect": "Career growth opportunities mid-month",
+          "dates": "15th-20th"
+        },
+        {
+          "planet": "Saturn",
+          "effect": "Financial planning needs attention",
+          "dates": "5th-10th"
+        }
+      ],
+      "focus_areas": [
+        "Career development",
+        "Spiritual growth",
+        "Family relationships",
+        "Health maintenance"
+      ]
+    }
+  },
+  "recommendations": {
+    "gemstones": [
+      {
+        "name": "Ruby",
+        "benefits": "Enhances leadership qualities and self-confidence",
+        "wearing_instructions": "Wear on ring finger on Sunday morning",
+        "purity_requirements": "Natural, unheated, minimum 2 carats",
+        "energetic_properties": "Strengthens Sun energy, vitality, and authority",
+        "best_timing": "During sunrise on a Sunday",
+        "compatibility": "Highly suitable based on your Leo ascendant",
+        "alternatives": ["Red Garnet", "Red Spinel"]
+      },
+      {
+        "name": "Yellow Sapphire",
+        "benefits": "Promotes wisdom and prosperity",
+        "wearing_instructions": "Wear on index finger on Thursday morning",
+        "purity_requirements": "Natural, unheated, minimum 3 carats",
+        "energetic_properties": "Enhances Jupiter energy, wisdom, and abundance",
+        "best_timing": "During sunrise on a Thursday",
+        "compatibility": "Excellent due to Jupiter's beneficial aspect",
+        "alternatives": ["Yellow Topaz", "Citrine"]
+      }
+    ],
+    "rituals": [
+      {
+        "name": "Morning Sun Salutation",
+        "importance": "Connects with solar energy for vitality",
+        "benefits": "Improves physical and mental well-being",
+        "procedure": "Perform 12 rounds facing east at sunrise",
+        "mantras": ["Om Suryaya Namaha", "Om Ghram Ghreem Ghroum Sah Suryaya Namaha"],
+        "best_times": {
+          "daily": "Sunrise",
+          "weekly": "Sunday",
+          "monthly": "Sankranti (Sun's transit)"
+        },
+        "preparations": [
+          "Wake up before sunrise",
+          "Take a bath",
+          "Wear clean, preferably white clothes",
+          "Face east"
+        ]
+      },
+      {
+        "name": "Evening Peace Ritual",
+        "importance": "Balances daily energies",
+        "benefits": "Promotes peaceful sleep and mental clarity",
+        "procedure": "20-minute meditation with specific mudras",
+        "mantras": ["Om Shanti Shanti Shanti"],
+        "timing": "Sunset or before bed"
+      }
+    ],
+    "dosAndDonts": {
+      "do": [
+        {
+          "practice": "Meditate during sunrise",
+          "reason": "Aligns with Sun's energy for maximum vitality"
+        },
+        {
+          "practice": "Wear warm colors on Sundays",
+          "reason": "Strengthens Solar energy influence"
+        },
+        {
+          "practice": "Practice gratitude daily",
+          "reason": "Aligns with Jupiter's beneficial aspects"
+        }
+      ],
+      "dont": [
+        {
+          "practice": "Avoid major decisions on Saturdays",
+          "reason": "Saturn's influence may cloud judgment"
+        },
+        {
+          "practice": "Don't sleep facing north",
+          "reason": "Disrupts natural magnetic alignment"
+        },
+        {
+          "practice": "Avoid negative thoughts during sunrise and sunset",
+          "reason": "These are spiritually sensitive transition periods"
+        }
+      ]
+    }
+  },
+  "spiritualContent": {
+    "meditation": {
+      "recommended_practice": "Mindfulness meditation",
+      "duration": "20 minutes",
+      "best_time": "Sunrise",
+      "focus_areas": ["Third eye chakra", "Heart chakra"],
+      "techniques": [
+        {
+          "name": "Breath Awareness",
+          "duration": "5 minutes",
+          "instructions": "Focus on natural breath flow",
+          "benefits": "Calms mind, reduces anxiety"
+        },
+        {
+          "name": "Mantra Meditation",
+          "duration": "10 minutes",
+          "mantra": "Om Namah Shivaya",
+          "benefits": "Deepens spiritual connection"
+        }
+      ],
+      "progression_plan": {
+        "week1": "5 minutes daily",
+        "week2": "10 minutes daily",
+        "week3": "15 minutes daily",
+        "week4": "20 minutes daily"
+      }
+    },
+    "workout": {
+      "type": "Yoga",
+      "asanas": [
+        {
+          "name": "Surya Namaskar",
+          "duration": "15 minutes",
+          "benefits": "Overall vitality",
+          "best_time": "Sunrise"
+        },
+        {
+          "name": "Padmasana",
+          "duration": "10 minutes",
+          "benefits": "Meditation posture",
+          "contraindications": "Knee issues"
+        }
+      ],
+      "duration": "45 minutes",
+      "best_time": "Early morning",
+      "energy_alignment": {
+        "morning": ["Energizing poses", "Sun salutations"],
+        "evening": ["Relaxing poses", "Meditation"]
+      }
+    },
+    "sleep": {
+      "recommended_hours": 7,
+      "ideal_sleep_time": "10:00 PM",
+      "ideal_wake_time": "5:00 AM",
+      "rituals": [
+        {
+          "name": "Light meditation",
+          "duration": "10 minutes",
+          "technique": "Body scan relaxation"
+        },
+        {
+          "name": "Gratitude journal",
+          "duration": "5 minutes",
+          "focus": "List three daily blessings"
+        }
+      ],
+      "bedroom_optimization": {
+        "direction": "Sleep with head facing South or East",
+        "environment": ["Complete darkness", "Cool temperature", "Fresh air"],
+        "electronics": "Keep all devices at least 3 feet from bed"
+      }
+    },
+    "chakra_analysis": {
+      "root": {
+        "status": "Balanced",
+        "recommendations": ["Grounding exercises", "Red foods"],
+        "crystals": ["Red Jasper", "Black Tourmaline"]
+      },
+      "sacral": {
+        "status": "Slightly underactive",
+        "recommendations": ["Creative activities", "Orange foods"],
+        "crystals": ["Carnelian", "Orange Calcite"]
+      },
+      "solar_plexus": {
+        "status": "Very active",
+        "recommendations": ["Power poses", "Yellow foods"],
+        "crystals": ["Citrine", "Tiger's Eye"]
+      }
+    }
+  }
+}
